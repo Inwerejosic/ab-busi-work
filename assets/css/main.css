@@ -2459,3 +2459,22 @@ section,
   background-color: #ccc;
   border-radius: 4px;
 }
+
+.modal-img img {
+  max-width: 180px;
+}
+
+.modal-content {
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .modal-body {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+
